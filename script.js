@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
 
 
-    botaoDeAcessibiidade.addEventListener('click,function(){
-     botaoDeAcessibiidade.classList.toggle('rotacao-botao');
+    botaoDeAcessibiidade.addEventListener('click',function(){
+    botaoDeAcessibiidade.classList.toggle('rotacao-botao');
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
-}')
+})
 
 
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
